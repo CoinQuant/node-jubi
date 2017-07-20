@@ -1,0 +1,38 @@
+{
+  "name": "node-jubi",
+  "version": "1.0.0",
+  "description": "Node SDK for jubi.cpm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperDBJ/node-jubi.git"
+  },
+  "keywords": [
+    "jubi",
+    "javascript",
+    "Nodejs",
+    "sdk",
+    "btc"
+  ],
+  "author": "linxuanwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperDBJ/node-jubi/issues"
+  },
+  "homepage": "https://github.com/SuperDBJ/node-jubi#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "url": "^0.11.0",
+    "urllib": "^2.23.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4"
+  }
+}

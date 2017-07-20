@@ -1,16 +1,3 @@
-# node-jubi
-
-Node SDK for jubi
-
-## Install
-
-```shell
-npm i "git+https://github.com/SuperDBJ/node-jubi.git"
-```
-
-## Quick Start
-
-```shell
 const Jubi = require('../index.js').Jubi;
 
 const key = '';
@@ -38,19 +25,13 @@ async function price() {
     console.log(await jb.getCurrentPrice('rss'));
 }
 
-coins();
 
+//coins();
 price();
-
+balance();
 tradeList();
 
-```
 
 
-## test
 
-```shell
-npm test
-```
 
-Notice: before run test, input your key && secret
